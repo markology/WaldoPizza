@@ -1,0 +1,64 @@
+div, span, h1, h2, h3, h4, h5, h6, p, input, button {
+    font-family: arial;
+}
+
+.waldo-pizza {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.waldo-pizza__options button {
+    margin: 40 20px;
+}
+
+.view-order {
+    width: 400px;
+    margin: auto;
+    border: solid 1px gainsboro
+    padding: 10px;
+}
+
+.view-order__pizza-wrapper {
+    margin-bottom: 10px;
+    border: 1px solid gainsboro;
+    padding-bottom: 10px;
+}
+
+.view-order__completed-message {
+    margin-bottom: 20px;
+}
+
+.waldo-pizza__list-options {
+    width: 180px;
+    background: gainsboro;
+    margin: 10px auto;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.waldo-pizza__list-options span:first-child {
+    float: left;
+    background: #f9f9f9;
+    padding: 2px;
+    margin-top: -10px;
+    width: 43px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: -10px;
+}
+
+.waldo-pizza__list-options span {
+    text-transform: capitalize;
+}
+
+.waldo-pizza__delete {
+    margin-top: 20px;
+}
+
+input[type="checkbox"] {
+    float: right;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+}

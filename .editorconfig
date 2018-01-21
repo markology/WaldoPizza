@@ -1,0 +1,31 @@
+; top-most EditorConfig file
+root = true
+
+; Unix-style newlines
+[*]
+indent_style = space
+charset = utf-8
+trim_trailing_whitespace = true
+draw_white_space: all
+trim_trailing_white_space_on_save = true
+end_of_line = LF
+
+[*.php]
+indent_style = space
+indent_size = 4
+
+[*.blade.php]
+indent_style = space
+indent_size = 4
+
+[*.css]
+indent_style = space
+indent_size = 4
+
+[*.{css,scss,less}]
+indent_style = space
+indent_size = 4
+
+[*.{js,json}]
+indent_style = space
+indent_size = 2
